@@ -1,0 +1,33 @@
+table {
+    color: antiquewhite;
+    margin: 0 auto;
+}
+
+table, th {
+    border: 2px solid antiquewhite; 
+    border-collapse: collapse; 
+    padding: 8px; 
+  }
+
+h2 {
+    color: antiquewhite;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+    right: 0;
+}
+
+/* REDO FOR MOBILE FIRST */
