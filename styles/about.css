@@ -1,0 +1,72 @@
+/* Main - About
+--------------------------------------------- */
+
+.about-content h2,
+.about-content p {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: antiquewhite;
+  padding: 1rem;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2); /* Feathered edge */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+.about-content img {
+    border-radius: 10px;
+}
+
+div h2 {
+  text-align: center;
+}
+
+
+@media screen and (min-width: 62.5rem) {
+
+.about-content {
+    margin: 1rem auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 30rem);
+    grid-template-rows: repeat(3, auto);
+    gap: 1rem;
+}
+
+.about-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#shinGeo {
+    grid-column: 2 / 3;
+}
+
+div h2 {
+    text-align: left;
+}
+
+.geography,
+.geography h2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    text-align: right;
+}
+
+}
