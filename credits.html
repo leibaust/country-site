@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <title>SHINJUKU | Credits</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/credits.css">
-    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/credits.css" />
+    <link rel="stylesheet" href="styles/normalize-fwd.css" />
     <script src="scripts/script.js" defer></script>
 
     <link
       rel="icon"
       type="image/png"
-      href="media/favicon/favicon-48x48.png"
+      href="favicon/favicon-48x48.png"
       sizes="48x48"
     />
-    <link rel="icon" type="image/svg+xml" href="media/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="media/favicon/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="media/favicon/apple-touch-icon.png"
+      href="favicon/apple-touch-icon.png"
     />
-    <link rel="manifest" href="media/favicon/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="index.html" class="main-title"><img src="media/logo-icon.svg" alt="country-logo"></a>
+        <a href="index.html" class="main-title"
+          ><img src="media/logo.png" alt="country-logo"
+        /></a>
         <ul id="nav-buttons">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -42,94 +48,97 @@
         </ul>
 
         <button
-        id="hamMenu"
-        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
-        aria-label="Main Menu"
-      >
-        <svg class="hamburger" width="75" height="75" viewBox="0 0 100 100">
-          <path
-            class="line line1"
-            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
-          />
-          <path class="line line2" d="M 20,50 H 80" />
-          <path
-            class="line line3"
-            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
-          />
-        </svg>
-      </button>  
-      </nav> 
+          id="hamMenu"
+          onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          aria-label="Main Menu"
+        >
+          <svg class="hamburger" width="75" height="75" viewBox="0 0 100 100">
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+      </nav>
     </header>
 
     <main>
-        <div class="video-background">
-            <video autoplay muted loop id="background-video">
-              <source src="media/japanVideo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-<div class="credits-table">
-            <h2>Credits</h2>
-            <table>
-                <tr>
-                    <th>Resource</th>
-                    <th>Author</th>
-                    <th>Link</th>
-                </tr>
-                <tr>
-                    <th>Shinjuku Information</th>
-                    <th>Wikipedia</th>
-                    <th>https://en.wikipedia.org/wiki/Shinjuku</th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </table>
-</div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="subscribe-form">
-            <h2>Subscribe For Upcoming Events!</h2>
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <button type="submit">Enter</button>
-            </form>
-          </div>
-
+      <div class="video-background">
+        <video autoplay muted loop id="background-video">
+          <source src="media/japanVideo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="credits-table">
+        <h2>Credits</h2>
+        <table>
+          <tr>
+            <th>Resource</th>
+            <th>Author</th>
+            <th>Link</th>
+          </tr>
+          <tr>
+            <th>Shinjuku Information</th>
+            <th>Wikipedia</th>
+            <th>https://en.wikipedia.org/wiki/Shinjuku</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="subscribe-form">
+        <h2>Subscribe For Upcoming Events!</h2>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <button type="submit">Enter</button>
+        </form>
+      </div>
     </main>
 
     <footer>
-        <p> &copy; 2024 <a class="footer-link" href="https://laust.ca/">Leibrandt Austria. </a> For Educational Purposes</p>
-        </footer>
-      </body>
-    </html>
+      <p>
+        &copy; 2024
+        <a class="footer-link" href="https://laust.ca/">Leibrandt Austria. </a>
+        For Educational Purposes
+      </p>
+    </footer>
+  </body>
+</html>
