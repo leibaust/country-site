@@ -1,13 +1,20 @@
 /* Main - About
 --------------------------------------------- */
 
-.about-content h2,
-.about-content p {
+.history,
+.geography,
+.transport {
   background-color: rgba(0, 0, 0, 0.5);
   color: antiquewhite;
   padding: 1rem;
-  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2); /* Feathered edge */
-  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px; 
+  height: 100%;
+  margin: 1rem auto;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 .subscribe-form {
