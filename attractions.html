@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The top places to see while in Shinjuku City, Tokyo, Japan!">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The top places to see while in Shinjuku City, Tokyo, Japan!"
+    />
     <title>SHINJUKU | Attractions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/attractions.css">
-    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/attractions.css" />
+    <link rel="stylesheet" href="styles/normalize-fwd.css" />
     <script src="scripts/script.js" defer></script>
 
     <link
@@ -32,7 +38,9 @@
   <body>
     <header>
       <nav>
-        <a href="index.html" class="main-title"><img src="media/logo-icon.svg" alt="country-logo"></a>
+        <a href="index.html" class="main-title"
+          ><img src="media/logo-icon.svg" alt="country-logo"
+        /></a>
         <ul id="nav-buttons">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
@@ -42,23 +50,23 @@
         </ul>
 
         <button
-        id="hamMenu"
-        onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
-        aria-label="Main Menu"
-      >
-        <svg class="hamburger" width="75" height="75" viewBox="0 0 100 100">
-          <path
-            class="line line1"
-            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
-          />
-          <path class="line line2" d="M 20,50 H 80" />
-          <path
-            class="line line3"
-            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
-          />
-        </svg>
-      </button>  
-      </nav> 
+          id="hamMenu"
+          onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+          aria-label="Main Menu"
+        >
+          <svg class="hamburger" width="75" height="75" viewBox="0 0 100 100">
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+      </nav>
     </header>
 
     <main>
@@ -68,19 +76,73 @@
           Your browser does not support the video tag.
         </video>
       </div>
-      <h2></h2>
-      <h3>Shinjuku Gyoen National Garden</h3>
-      <img src="media/gyoen.jpg" alt="Gyoen National Garden">
-      <h3>Kabukicho</h3>
-      <img src="media/kabukicho.jpg" alt="Kabukicho">
-      <h3>Robot Restaurant</h3>
-      <img src="media/robot.jpeg" alt="Robot Restaurant">
-      <h3>Golden Gai</h3>
-      <img src="media/goldengai.jpg" alt="Golden Gai">
+      
+      <h2>Attractions</h2>      
+
+      <div class="attractions-content">
+          <a href="#" class="popup-btn" data-popup="popup1"><h3>Gyoen National Garden</h3>
+          <img src="media/gyoen.jpg" alt="Gyoen National Garden" class="gyoenImg">
+          </a>
+        
+          <a href="#" class="popup-btn" data-popup="popup2"><h3>Kabukicho</h3>
+          <img src="media/kabukicho.jpg" alt="Kabukicho" class="kabuImg"/>
+          </a>
+
+          <a href="#" class="popup-btn" data-popup="popup3"><h3>Robot Restaurant</h3>
+          <img src="media/robot.jpeg" alt="Robot Restaurant" class="roboImg"/>
+          </a>
+
+          <a href="#" class="popup-btn" data-popup="popup4"><h3>Golden Gai</h3>
+          <img src="media/goldengai.jpg" alt="Golden Gai" class="gaiImg"/>
+          </a>
+      </div>
+    
+
+      <div id="popup1" class="popup">
+        <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2>Gyoen National Garden</h2>
+          <p>Shinjuku Gyoen (新宿御苑) is one of Tokyo's largest and most popular parks. Located a short walk from Shinjuku Station, the park's spacious lawns, meandering walking paths and tranquil scenery provide a relaxing escape from the busy urban center around it. In spring Shinjuku Gyoen becomes one of the best places in the city to see cherry blossoms.</p>
+          <a href="https://maps.app.goo.gl/5VvX47734gPGeQUw8" target="_blank">--Directions--</a>
+        </div>
+      </div>
+    
+      <div id="popup2" class="popup">
+        <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2>Kabukicho</h2>
+          <p>Kubukicho is famously known as ‘Tokyo’s red light district’. With host and hostess clubs, love hotels, many discreet and low-profile bars, Japanese-only establishments and much more; this area is definitely interesting to say the least.</p>
+          <a href="https://maps.app.goo.gl/dXcAmF6BiSiieXpF6" target="_blank">--Directions--</a>
+        </div>
+      </div>
+    
+      <div id="popup3" class="popup">
+        <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2>Robot Restaurant</h2>
+          <p>Since July 2012, the Robot Restaurant in Tokyo offers a spectacular Robot-themed cabaret show. You will see dancers, lasers, flashing lights, monsters, music, and naturally, robots. Even though the attraction is officially called a restaurant, the name can be a little misleading. For us, it is a show, rather than a restaurant. They do serve food there, however. The entire show is 90 minutes long and includes one intermission.</p>
+          <a href="https://maps.app.goo.gl/1HegRQNwAfFdejrg9" target="_blank">--Directions--</a>
+        </div>
+      </div>
+    
+      <div id="popup4" class="popup">
+        <div class="popup-content">
+          <span class="close-btn">&times;</span>
+          <h2>Golden Gai</h2>
+          <p>Golden Gai is a collection of over 200 bars in six alleys, each with its own character and theme. Learn how to choose a welcoming bar, where to eat, and what to expect from this charmingly scruffy part of Shinjuku.</p>
+          <a href="https://maps.app.goo.gl/kWb5Vaj6NUE19ety9" target="_blank">--Directions--</a>
+        </div>
+      </div>
+
+
     </main>
 
     <footer>
-      <p> &copy; 2024 <a class="footer-link" href="https://laust.ca/">Leibrandt Austria. </a> For Educational Purposes</p>
-      </footer>
-    </body>
-  </html>
+      <p>
+        &copy; 2024
+        <a class="footer-link" href="https://laust.ca/">Leibrandt Austria. </a>
+        For Educational Purposes
+      </p>
+    </footer>
+  </body>
+</html>
