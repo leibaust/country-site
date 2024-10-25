@@ -2,3 +2,46 @@ p,
 cite {
     color: antiquewhite;
 }
+
+.food-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food-content img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10%;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.food-item h3,
+.food-item h2 {
+    margin 0 auto;
+}
+
+.food-item {
+    text-align: center;
+}
+
+.quote {
+    background-image: url('media/bourdain.jpeg'); 
+    background-size: cover; 
+    color: white; 
+    padding: 20px;
+    margin: 2rem;
+    width: 45rem;
+    height: 25rem;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
