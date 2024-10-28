@@ -1,14 +1,14 @@
 /* Quote Content */
 
 .quote {
-    background-image: url('../media/bourdain.jpeg'); 
+    background-image: url('../media/bourdain.jpg'); 
     background-size: cover; 
     background-position: center;
     filter:grayscale(90%);
     padding: 20px;
     margin: 2rem;
     width: 45rem;
-    height: 25rem;
+    height: 17rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -33,19 +33,19 @@
 
 @media (max-width: 450px) {
     .quote {
-      width: 90%; /* Use a percentage width to fit within the screen */
-      height: auto; /* Allow height to adjust to content */
-      padding: 10px;
+      width: 90%;
+      height: auto; 
+      padding: 20px;
       margin: 1rem;
     }
   
     .quote p, .quote cite {
-      min-width: 100%; /* Adjust to make sure text fits within the quote */
-      font-size: 1rem; /* Reduce font size to fit content better */
-      word-break: break-word; /* Ensures long words break to fit within the container */
+      min-width: 100%; 
+      font-size: 1rem; 
+      word-break: break-word; 
     }
-  
 }
+
 /* Food Content */
 
 .food-content {
