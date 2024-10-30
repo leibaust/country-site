@@ -43,7 +43,7 @@ div h2 {
 }
 
 
-@media screen and (min-width: 62.5rem) {
+@media screen and (min-width: 62.5em) {
 
 .about-content {
     margin: 1rem auto;

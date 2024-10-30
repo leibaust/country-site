@@ -37,24 +37,25 @@
   </head>
 
   <body>
-    <a href="#site-main" class="screen-reader-text">Skip to Content</a>
+    <a href="#site-main" class="screen-reader-text" tabindex="1">Skip to Content</a>
     <header>
       <nav>
-        <a href="index.html" class="main-title"
+        <a href="index.html" class="main-title" tabindex="2"
           ><img src="media/logo.png" alt="Logo of Shinjuku City"
         /></a>
         <ul id="nav-buttons">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="attractions.html">Attractions</a></li>
-          <li><a href="food.html">Food</a></li>
-          <li><a href="credits.html">Credits</a></li>
+          <li><a href="index.html" tabindex="3">Home</a></li>
+          <li><a href="about.html" tabindex="4">About</a></li>
+          <li><a href="attractions.html" tabindex="5">Attractions</a></li>
+          <li><a href="food.html" tabindex="6">Food</a></li>
+          <li><a href="credits.html" tabindex="7">Credits</a></li>
         </ul>
 
         <button
           id="hamMenu"
           onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
           aria-label="Main Menu"
+          tabindex="8"
         >
           <svg class="hamburger" width="75" height="75" viewBox="0 0 100 100">
             <path
@@ -71,9 +72,9 @@
       </nav>
     </header>
 
-    <main id="site-main">
+    <main id="site-main" tabindex="9">
       <div class="video-background">
-        <video autoplay muted loop id="background-video">
+        <video autoplay muted loop id="background-video" tabindex="10">
           <source src="media/japanVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -84,8 +85,9 @@
           id="shinHistory"
           src="media/shinjuku-history.jpg"
           alt="Image of Japanese women in kimono's, older Japan era"
+          tabindex="11"
         />
-        <div class="history">
+        <div class="history" tabindex="12">
           <h2>History</h2>
           <p>
             In 1634, during the Edo period, as the outer moat of the Edo Castle
@@ -104,8 +106,9 @@
           id="shinGeo"
           src="media/shinjuku-geo.jpg"
           alt="Image of Shinjuku streets at night"
+          tabindex="13"
         />
-        <div class="geography">
+        <div class="geography" tabindex="14">
           <h2>Geography</h2>
           <p>
             Shinjuku is surrounded by Chiyoda to the east; Bunkyo and Toshima to
@@ -120,8 +123,9 @@
           id="shinTransport"
           src="media/shinjuku-transport.jpg"
           alt="Image of a red train at a station"
+          tabindex="15"
         />
-        <div class="transport">
+        <div class="transport" tabindex="16">
           <h2>Transportation</h2>
           <p>
             Shinjuku is a major urban transit hub. Shinjuku Station sees an
@@ -134,10 +138,10 @@
       </div>
     </main>
 
-    <footer>
+    <footer tabindex="17">
       <p>
         &copy; 2024
-        <a class="footer-link" href="https://laust.ca/">Leibrandt Austria. </a>
+        <a class="footer-link" href="https://laust.ca/" tabindex="18">Leibrandt Austria. </a>
         For Educational Purposes
       </p>
     </footer>

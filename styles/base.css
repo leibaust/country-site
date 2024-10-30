@@ -186,7 +186,7 @@ header {
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
   position: sticky;
   top: 0; 
-  z-index: 1000; 
+  z-index: 6969; 
 }
 
 nav {
@@ -220,7 +220,7 @@ nav {
   margin-left: .5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
   #nav-buttons {
       display: flex;
       gap: 0;

@@ -36,24 +36,25 @@
   </head>
 
   <body>
-    <a href="#site-main" class="screen-reader-text">Skip to Content</a>
+    <a href="#site-main" class="screen-reader-text" tabindex="1">Skip to Content</a>
     <header>
       <nav>
-        <a href="index.html" class="main-title">
+        <a href="index.html" class="main-title" tabindex="2">
           <img src="media/logo.png" alt="country-logo"/>
         </a>
         <ul id="nav-buttons">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="attractions.html">Attractions</a></li>
-          <li><a href="food.html">Food</a></li>
-          <li><a href="credits.html">Credits</a></li>
+          <li><a href="index.html" tabindex="3">Home</a></li>
+          <li><a href="about.html" tabindex="4">About</a></li>
+          <li><a href="attractions.html" tabindex="5">Attractions</a></li>
+          <li><a href="food.html" tabindex="6">Food</a></li>
+          <li><a href="credits.html" tabindex="7">Credits</a></li>
         </ul>
 
         <button
           id="hamMenu"
           onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
           aria-label="Main Menu"
+          tabindex="8"
         >
           <svg class="hamburger" width="75" height="75" viewBox="0 0 100 100">
             <path
@@ -70,7 +71,7 @@
       </nav>
     </header>
 
-    <main id="site-main">
+    <main id="site-main" tabindex="9">
       <div class="video-background">
         <video autoplay muted loop id="background-video">
           <source src="media/japanVideo.mp4" type="video/mp4" />
@@ -79,8 +80,8 @@
       </div>
 
       <div class="home-content">
-        <h2>Shinjuku City, A Ward of Tokyo, Japan</h2>
-        <p>
+        <h2 tabindex="10">Shinjuku City, A Ward of Tokyo, Japan</h2>
+        <p tabindex="11">
           Shinjuku, officially called Shinjuku City, is a special ward of Tokyo,
           Japan. It is a major commercial and administrative center, housing the
           northern half of the busiest railway station in the world (Shinjuku
@@ -96,9 +97,9 @@
     </main>
 
     <footer>
-      <p>
+      <p tabindex="12">
         &copy; 2024
-        <a class="footer-link" href="https://laust.ca/">Leibrandt Austria. </a>
+        <a class="footer-link" href="https://laust.ca/" tabindex="13">Leibrandt Austria. </a>
         For Educational Purposes
       </p>
     </footer>
