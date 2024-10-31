@@ -234,6 +234,22 @@ nav {
 /* Main - Home
 --------------------------------------------- */
 
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  z-index: 9696;
+  transition: top 0.3s;
+  text-decoration: none;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
 .home-content {
   display: flex;
   flex-direction: column;
