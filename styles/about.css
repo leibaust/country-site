@@ -79,6 +79,7 @@ div h2 {
   color: #F12B3B;
 }
 
-.gyoen a:hover {
+.gyoen a:hover,
+.gyoen a:focus {
   color: antiquewhite;
 }
